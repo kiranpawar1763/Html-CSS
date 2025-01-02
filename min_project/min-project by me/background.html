@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image and Form</title>
+    <style>
+        /* Style for the body to include a background image */
+        body {
+            margin: 100 px;
+            padding: 100 px;
+            font-family: Arial, sans-serif;
+            background-image: url('./img/istockphoto-1391335069-612x612.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; /* Full screen height */
+        }
+
+        /* Center the form on the page */
+        .form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        /* Style the form */
+        .form-box {
+            background-color: rgba(139, 118, 208, 0.9); /* Slightly transparent white */
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(180, 19, 19, 0.2);
+            width: 300px;
+        }
+
+        /* Input and button styling */
+        .form-box input, .form-box button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #6d5e5e;
+            border-radius: 5px;
+        }
+
+        /* Button styling */
+        .form-box button {
+            background-color: #140568;
+            color: rgb(207, 107, 107);
+            border: none;
+            cursor: pointer;
+        }
+
+        .form-box button:hover {
+            background-color: #1ac59a;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-box">
+            <h2>Sign Up</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required>
+                <input type="date"placeholder="date of birth"required>
+                <input type="Cources" placeholder="cources to be enroll" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<!-- Background image added to the body in the style section -->
