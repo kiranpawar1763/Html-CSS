@@ -1,0 +1,22 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+
+}
+html,body{
+    height:100pxl;
+    width:100pxl;
+    
+}
+#main{
+    height:100%;
+    width:100%;
+    
+}
+.shape{
+height: 200pxl;
+width: 200pxl;
+background-color:rgb(231, 235, 231);
+border:1px solid black;
+}

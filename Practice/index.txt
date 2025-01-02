@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="">
+    <style>
+        h1{
+            color:aqua;
+        }
+        .box{
+            background-color: black;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+    <h2>Hello</h2>
+    <h3>Hello</h3>
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, aut?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam velit voluptates tempore ex quisquam ipsam hic necessitatibus? Voluptates, soluta porro odit nesciunt laudantium beatae quibusdam facere iure rerum autem! Molestiae.</p>
+
+    <ol>
+        <li>home</li>
+        <li>about</li>
+        <li>services</li>
+        <li>contact</li>
+    </ol>
+
+    <ul style="color:green;">
+        <li>
+            <a href="./index.html">home</a>
+        </li>
+        <li>about</li>
+        <li>services</li>
+        <li>contact</li>
+    </ul>
+
+    <div class="box">
+        <h1>div</h1>
+        <p>Lorem ipsum dolor sit amet <span style="color:red;">consectetur</span> adipisicing elit. Ducimus accusamus ipsa assumenda laborum blanditiis alias minima maiores veniam repudiandae magnam!</p>
+    </div>
+
+
+    <!-- img tag into it give link using target_blank -->
+    <a href="https://www.pexels.com/search/space/" target="_blank">
+        <img src="./space.jpg" alt="space image" title="space image">
+    </a>
+
+    <div class="links">
+        <a href="https://google.com">Google</a>
+        
+    </div>
+    <hr>
+
+    
+    <form action="">
+        <div class="name">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Name" id="name" required>
+        </div>
+        <div class="email">
+            <label for="mail">Email</label>
+            <input type="email" placeholder="Enter Mail" id="mail" required>
+        </div>
+        <div class="btn">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+    <table border="1">
+
+        <!-- Table Heading with rowspan -->
+        <tr>
+            <!-- <th rowspan="2">Rollno</th> -->
+            <th colspan="2">Stud Details</th>
+
+        <tr>
+            <th>Rollno</th>
+            <th>Name</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Kiran</td>
+        </tr>
+    </table>
+    
+    <hr>
+
+    <div class="footer">
+        <p>&copy; 2021 Kiran</p>
+    </div>
+</body>
+</html>
