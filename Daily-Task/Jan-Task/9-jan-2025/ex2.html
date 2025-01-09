@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo on Header Body Footer</title>
+    <style>
+        header{
+            height: 50px;
+            width: 100%;
+            border: solid red 1px;
+            text-align: center;
+            margin: 1px;
+            margin-top: 0px;
+        }
+        main{
+            display: grid;
+            border: 1px solid blue;
+            padding: 5px;
+            height: 500px;
+            column-gap: 10px;
+            grid-template-columns: 2fr 10fr;
+        
+        }
+        nav{
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        article{
+            border: 1px solid green;
+            height: 100px;
+            width: 13%;
+            display: flex;
+            justify-content: center;/horizontaly center/
+            align-items: center;   /*vertical center  */
+            padding: 1px;
+            padding-left: 2px;
+            border-radius: 10%;
+        }
+        section{
+            border: 1px solid yellow;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 10px 10px;
+        }
+        footer{
+            border: solid gray 1px;
+            margin-top: 3px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        This is header
+    </header>
+    <main>
+        <nav>
+            Navigation Bar
+        </nav>
+        <section>
+            <article>Flex-1</article>
+            <article>Flex-2</article>
+            <article>Flex-3</article>
+            <article>Flex-4</article>
+            <article>Flex-5</article>
+            <article>Flex-6</article>
+            <article>Flex-7</article>
+        </section>
+    </main>
+    <footer>This is the footer</footer>
+    
+    
+</body>
+</html>
