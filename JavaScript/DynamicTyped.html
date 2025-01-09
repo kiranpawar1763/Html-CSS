@@ -1,7 +1,66 @@
-<h3> demo on loosely Typed</h3>
+<h3> demo on operatar</h3>
 <script>
-   y=100;
-    document.write(y,"<br>")
-    z="ram";
-    document.write(z)
+   let x=25,y=7;
+
+   // arthmatic ope + - * / % **
+   document.write (x+y,'<br>')
+   document.write (x-y,'<br>')
+   document.write (y*3,'<br>')
+   document.write (x**3,'<br>')
+   document.write (x/4,'<br><br>')
+ 
+   
+   // relational operatar > <  >=  <= == != === !==
+
+   document.write(x>=0,'<br>');
+   let z="7";
+   document.write(x<=0,'<br>');
+   document.write(x>0,'<br>');
+   document.write(x<0,'<br>');
+   document.write(x===z,'<br>');//it check the value and value data types
+   document.write(x!==z,'<br>');
+   document.write(x==z,'<br><br>'); //it check only value
+   
+
+   //logical operatar && , ||, !
+   //double andpercent using from and operator
+   // || pipes  is used to  or
+   //! not equals
+
+   document.write(x>=0 && x<=10,'<br>');
+   document.write(x>=0 || x<=10,'<br>');
+   document.write(!(y<10),'<br><br>');
+
+   //assignment operatar  =
+   //shorthand operater  += , -=, *=, /= ,%= ,**= ,>>= ,<<= &= ,|=,^=
+
+   x+=30; //x+x=30
+   y=y*10; //y=y*10
+
+   //cocatition operation  +
+ 
+   document.write("kiran"+"pawar"+"<br>");
+   document.write(100+"mango<br>");
+   document.write(100+"true"+"<br>");
+   document.write(100+"mango<br><br>");
+
+ //Unary operatar
+   //increment op ++
+   //decrement op --
+   //pre ++var ,--var
+   //post var --, var ++
+
+   ++x;
+      document.write(x,"<br>");
+      x++;
+      document.write(x,"<br>");
+      document.write(x,'<br>');
+      //let res=10*x++;
+      let res=10*++x;
+document.write(res,'<br>',x,'<br>');
+
+//condition  ? :
+ //cond ? statement-1:statement-2
+document.write( y%2==0?"Even number":"odd number");
+
 </Script>
